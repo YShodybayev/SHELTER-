@@ -1,0 +1,74 @@
+@import 'vars';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $Georgia;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 1.1;
+    color: $pink;
+    letter-spacing: 0.06em;
+
+}
+
+p {
+    color: $white;
+}
+
+body {
+    font-family: $arial;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: 0.06em;
+
+}
+
+a,
+ul,
+li {
+    text-decoration: none;
+    list-style: none;
+    color: $white;
+
+    :hover {
+        color: #FFFFFF;
+
+    }
+}
+
+button {
+    width: 207px;
+    height: 52px;
+    display: inline-block;
+    border-radius: 100px;
+    border-color: $pink;
+    background-color: $pink;
+    font-weight: 400;
+    font-family: $Georgia;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 130%;
+    cursor: pointer;
+    letter-spacing: 0.06em;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container-pets {
+    max-width: 1400px;
+    margin: 0 auto;
+}
